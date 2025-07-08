@@ -1,0 +1,6 @@
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/model/Student.java
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/service/StudentServiceImplementation.java
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/repository/StudentRepository.java
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/service/StudentService.java
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/controller/StudentController.java
+/home/ujjwalgupta/docker/springbootapp/studentsystem/src/main/java/com/fullstackapp/studentsystem/StudentsystemApplication.java

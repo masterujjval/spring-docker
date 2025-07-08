@@ -1,0 +1,6 @@
+com/fullstackapp/studentsystem/service/StudentService.class
+com/fullstackapp/studentsystem/StudentsystemApplication.class
+com/fullstackapp/studentsystem/repository/StudentRepository.class
+com/fullstackapp/studentsystem/service/StudentServiceImplementation.class
+com/fullstackapp/studentsystem/model/Student.class
+com/fullstackapp/studentsystem/controller/StudentController.class

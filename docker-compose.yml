@@ -1,0 +1,40 @@
+# for setting up frontend
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - mysql
+      
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql
+      
+  mysql:
+    image: mysql:8.0
+    restart: always
+    environment:
+        MYSQL_DATABASE: cherry
+        MYSQL_USERNAME: cherry
+        MYSQL_PASSWORD: cherry
+        MYSQL_ROOT_PASSWORD: cherry
+    ports:
+      - "3306:3306"
+
+
+
+
+
+
+
+
+

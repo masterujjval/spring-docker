@@ -1,0 +1,12 @@
+FROM node:18-alpine
+WORKDIR /app
+COPY /studentfrontend/package*.json /app/
+RUN npm install
+COPY /studentfrontend ./
+RUN npm run build
+
+# now using build, then using build and start nginx
+FROM nginx:alpine
+COPY --from=0 /app/build /usr/share/nginx/html
+CMD ["nginx","-g","daemon off;"]
+
